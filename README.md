@@ -1,0 +1,4 @@
+API Tienda
+API Tienda es una API REST desarrollada con Node.js, Express y SQLite que permite gestionar una tienda mediante el registro e inicio de sesión de usuarios, consulta y administración de categorías y productos, y registro de ventas. Cuenta con autenticación mediante JWT, protección de contraseñas, validación de datos y permisos para diferenciar las acciones de clientes y administradores. Para utilizar el proyecto, instala sus dependencias con npm install, configura las variables del archivo .env.example en un archivo .env y ejecuta el servidor. La API dispone de las rutas /auth, /categorias, /productos y /ventas; también permite comprobar su funcionamiento mediante GET /ping. Las pruebas se ejecutan con npm test y la base de datos utilizada es SQLite.
+
+Tecnologías: Node.js, Express, SQLite, JWT, Bcryptjs y Supertest.
